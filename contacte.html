@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="ca" data-lang="ca">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#FFFFFF">
+    <title data-ca="Contacte — Punt i Còpia · Barcelona" data-es="Contacto — Punt i Còpia · Barcelona">Contacte — Punt i Còpia · Barcelona</title>
+    <meta name="description" content="Contacte amb Punt i Còpia: telèfon, correu, adreça, horari i mapa. Pressupost sense compromís a Barcelona.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/favicon.png">
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+</head>
+<body>
+    <div class="paper-texture" aria-hidden="true"></div>
+
+    <header class="site-header">
+        <div class="container site-header__inner">
+            <a href="index.html" class="brand" aria-label="Punt i Còpia">
+                <span class="brand__dots" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span class="brand__word"><strong>Punt</strong> <em>i</em> <strong>Còpia</strong></span>
+            </a>
+            <nav class="nav" data-nav aria-label="Principal">
+                <a href="index.html"><span class="lang-ca">Inici</span><span class="lang-es">Inicio</span></a>
+                <a href="serveis.html"><span class="lang-ca">Serveis</span><span class="lang-es">Servicios</span></a>
+                <a href="nosaltres.html"><span class="lang-ca">Nosaltres</span><span class="lang-es">Nosotros</span></a>
+                <a href="contacte.html" aria-current="page"><span class="lang-ca">Contacte</span><span class="lang-es">Contacto</span></a>
+            </nav>
+            <div class="header-utils">
+                <div class="lang-toggle" role="group" aria-label="Idioma">
+                    <button type="button" data-lang-switch="ca" aria-pressed="true">CA</button>
+                    <span aria-hidden="true">·</span>
+                    <button type="button" data-lang-switch="es" aria-pressed="false">ES</button>
+                </div>
+                <a class="header-phone" href="tel:+34900000000"><span class="dot" aria-hidden="true"></span>900 000 000</a>
+                <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-label="Menú">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- PAGE HERO -->
+        <section class="page-hero page-hero--stacked container">
+            <div class="page-hero__crumbs" data-reveal>
+                <a href="index.html"><span class="lang-ca">Inici</span><span class="lang-es">Inicio</span></a>
+                <span aria-hidden="true">/</span>
+                <span><span class="lang-ca">Contacte</span><span class="lang-es">Contacto</span></span>
+            </div>
+            <span class="page-hero__kicker mono" data-reveal>
+                <span class="lang-ca">— Parlem-ne</span>
+                <span class="lang-es">— Hablemos</span>
+            </span>
+            <h1 class="page-hero__title" data-reveal data-delay="1">
+                <span class="lang-ca">Diga'ns què <em>imprimirem</em> per a tu.</span>
+                <span class="lang-es">Dinos qué <em>imprimiremos</em> para ti.</span>
+            </h1>
+            <p class="page-hero__intro" data-reveal data-delay="2">
+                <span class="lang-ca">Escriu, truca o vine. Et responem en menys de 24 h laborals amb un pressupost clar i sense lletra petita.</span>
+                <span class="lang-es">Escribe, llama o ven. Te respondemos en menos de 24 h laborables con un presupuesto claro y sin letra pequeña.</span>
+            </p>
+        </section>
+
+        <!-- CONTACT GRID -->
+        <section class="section container">
+            <div class="contact-grid">
+                <!-- FORM -->
+                <form class="contact-form" data-contact-form data-reveal>
+                    <div class="field">
+                        <label for="name">
+                            <span class="lang-ca">Com et diuen?</span>
+                            <span class="lang-es">¿Cómo te llamas?</span>
+                        </label>
+                        <input id="name" type="text" name="name" required autocomplete="name">
+                    </div>
+
+                    <div class="field-row">
+                        <div class="field">
+                            <label for="email">Email</label>
+                            <input id="email" type="email" name="email" required autocomplete="email">
+                        </div>
+                        <div class="field">
+                            <label for="phone">
+                                <span class="lang-ca">Telèfon</span>
+                                <span class="lang-es">Teléfono</span>
+                            </label>
+                            <input id="phone" type="tel" name="phone" autocomplete="tel">
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label for="service">
+                            <span class="lang-ca">Quin servei t'interessa?</span>
+                            <span class="lang-es">¿Qué servicio te interesa?</span>
+                        </label>
+                        <select id="service" name="service">
+                            <option value="copisteria">
+                                <span class="lang-ca">Copistería &amp; enquadernació</span>
+                            </option>
+                            <option value="fotografia">Fotografía</option>
+                            <option value="imprenta">Imprenta</option>
+                            <option value="altres">— Altres / Otros</option>
+                        </select>
+                    </div>
+
+                    <div class="field">
+                        <label for="message">
+                            <span class="lang-ca">Explica'ns el projecte</span>
+                            <span class="lang-es">Cuéntanos el proyecto</span>
+                        </label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <div style="margin-top: 1rem;">
+                        <button type="submit" class="btn">
+                            <span class="lang-ca">Enviar missatge</span>
+                            <span class="lang-es">Enviar mensaje</span>
+                            <svg class="arrow" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </button>
+                    </div>
+
+                    <p class="mono" data-form-status hidden style="color: var(--accent-deep); margin-top: 1rem;"></p>
+                </form>
+
+                <!-- INFO -->
+                <aside class="contact-info" data-reveal data-delay="1">
+                    <div class="info-block">
+                        <h6><span class="lang-ca">Vine a veure'ns</span><span class="lang-es">Ven a vernos</span></h6>
+                        <p>Carrer Major, 10<br>08001 Barcelona</p>
+                    </div>
+
+                    <div class="info-block">
+                        <h6><span class="lang-ca">Truca'ns</span><span class="lang-es">Llámanos</span></h6>
+                        <a href="tel:+34900000000">900 000 000</a>
+                    </div>
+
+                    <div class="info-block">
+                        <h6>Email</h6>
+                        <a href="mailto:hola@punticopia.cat">hola@punticopia.cat</a>
+                    </div>
+
+                    <div class="info-block">
+                        <h6><span class="lang-ca">Xarxes</span><span class="lang-es">Redes</span></h6>
+                        <a href="#">@punticopia ↗</a><br>
+                        <a href="#">punticopia ↗</a>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!-- HOURS -->
+        <section class="section container section--tint section--tint-mint">
+            <div class="section-head">
+                <div data-reveal>
+                    <span class="section-num is-mint">02 — <span class="lang-ca">Horari</span><span class="lang-es">Horario</span></span>
+                    <h2 class="section-head__title" style="margin-top:1rem">
+                        <span class="lang-ca">Obert quan <em>ho necessites</em>.</span>
+                        <span class="lang-es">Abierto cuando <em>lo necesitas</em>.</span>
+                    </h2>
+                </div>
+                <div data-reveal data-delay="1">
+                    <p class="lead">
+                        <span class="lang-ca">Confirma el dia abans si ens portes un encàrrec urgent — ens encarreguem que estigui llest.</span>
+                        <span class="lang-es">Confirma el día antes si nos traes un encargo urgente — nos encargamos de que esté listo.</span>
+                    </p>
+                </div>
+            </div>
+
+            <div style="max-width: 720px;" data-reveal>
+                <table class="hours-table">
+                    <tbody>
+                        <tr>
+                            <td><span class="lang-ca">Dilluns</span><span class="lang-es">Lunes</span></td>
+                            <td>9.00 — 13.30 · 17.00 — 20.00</td>
+                        </tr>
+                        <tr>
+                            <td><span class="lang-ca">Dimarts</span><span class="lang-es">Martes</span></td>
+                            <td>9.00 — 13.30 · 17.00 — 20.00</td>
+                        </tr>
+                        <tr class="today">
+                            <td><span class="lang-ca">Dimecres</span><span class="lang-es">Miércoles</span></td>
+                            <td>9.00 — 13.30 · 17.00 — 20.00</td>
+                        </tr>
+                        <tr>
+                            <td><span class="lang-ca">Dijous</span><span class="lang-es">Jueves</span></td>
+                            <td>9.00 — 13.30 · 17.00 — 20.00</td>
+                        </tr>
+                        <tr>
+                            <td><span class="lang-ca">Divendres</span><span class="lang-es">Viernes</span></td>
+                            <td>9.00 — 13.30 · 17.00 — 20.00</td>
+                        </tr>
+                        <tr>
+                            <td><span class="lang-ca">Dissabte</span><span class="lang-es">Sábado</span></td>
+                            <td>10.00 — 13.30</td>
+                        </tr>
+                        <tr class="closed">
+                            <td><span class="lang-ca">Diumenge</span><span class="lang-es">Domingo</span></td>
+                            <td><span class="lang-ca">Tancat</span><span class="lang-es">Cerrado</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="caption" style="margin-top: 1rem; color: var(--ink-faint);">
+                    <span class="lang-ca">* Horari orientatiu. Confirma per telèfon en festius locals.</span>
+                    <span class="lang-es">* Horario orientativo. Confirma por teléfono en festivos locales.</span>
+                </p>
+            </div>
+        </section>
+
+        <!-- MAP -->
+        <section class="section container">
+            <div class="section-head">
+                <div data-reveal>
+                    <span class="section-num">03 — <span class="lang-ca">On som</span><span class="lang-es">Dónde estamos</span></span>
+                    <h2 class="section-head__title" style="margin-top:1rem">
+                        <span class="lang-ca">Carrer Major, 10</span>
+                        <span class="lang-es">Carrer Major, 10</span>
+                    </h2>
+                </div>
+                <div data-reveal data-delay="1">
+                    <p class="lead">
+                        <span class="lang-ca">Barcelona, 08001. Metro i bus a dos minuts.</span>
+                        <span class="lang-es">Barcelona, 08001. Metro y bus a dos minutos.</span>
+                    </p>
+                    <a href="https://maps.google.com/?q=Carrer+Major+10,+Barcelona" target="_blank" rel="noopener" class="btn-ghost" style="margin-top: 1rem;">
+                        <span class="lang-ca">Obrir a Google Maps</span>
+                        <span class="lang-es">Abrir en Google Maps</span>
+                        <svg class="arrow" viewBox="0 0 14 14" fill="none" aria-hidden="true" width="12" height="12"><path d="M3 11L11 3M5 3h6v6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="map-wrap" data-reveal>
+                <iframe
+                    src="https://www.google.com/maps?q=Carrer+Major+10,+Barcelona&output=embed"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Punt i Còpia — Barcelona"
+                    allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <!-- CTA BANNER -->
+        <section class="cta-banner">
+            <div class="container cta-banner__grid">
+                <h2 class="cta-banner__title" data-reveal>
+                    <span class="lang-ca">Encara prefereixes <em>trucar?</em></span>
+                    <span class="lang-es">¿Aún prefieres <em>llamar?</em></span>
+                </h2>
+                <div class="cta-banner__right" data-reveal data-delay="1">
+                    <p>
+                        <span class="lang-ca">També ens funciona. Som una botiga, no un call center. Tindràs algú a l'altra banda que coneix la feina.</span>
+                        <span class="lang-es">Nos sirve igual. Somos una tienda, no un call center. Tendrás a alguien al otro lado que conoce el trabajo.</span>
+                    </p>
+                    <div>
+                        <a href="tel:+34900000000" class="btn">
+                            900 000 000
+                            <svg class="arrow" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-brand">
+                    <a href="index.html" class="brand" aria-label="Punt i Còpia">
+                        <span class="brand__dots" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span class="brand__word"><strong>Punt</strong> <em>i</em> <strong>Còpia</strong></span>
+                    </a>
+                    <p>
+                        <span class="lang-ca">Còpies, imatge i imprenta des del Carrer Major, 10. Barcelona, 08001.</span>
+                        <span class="lang-es">Copias, imagen e imprenta desde el Carrer Major, 10. Barcelona, 08001.</span>
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h6><span class="lang-ca">Serveis</span><span class="lang-es">Servicios</span></h6>
+                    <ul>
+                        <li><a href="serveis.html#copisteria"><span class="lang-ca">Copistería</span><span class="lang-es">Copistería</span></a></li>
+                        <li><a href="serveis.html#fotografia"><span class="lang-ca">Fotografia</span><span class="lang-es">Fotografía</span></a></li>
+                        <li><a href="serveis.html#imprenta"><span class="lang-ca">Imprenta</span><span class="lang-es">Imprenta</span></a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h6><span class="lang-ca">Contacte</span><span class="lang-es">Contacto</span></h6>
+                    <ul>
+                        <li><a href="tel:+34900000000">900 000 000</a></li>
+                        <li><a href="mailto:hola@punticopia.cat">hola@punticopia.cat</a></li>
+                        <li><address class="footer-address">Carrer Major, 10<br>08001 Barcelona</address></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h6><span class="lang-ca">Segueix-nos</span><span class="lang-es">Síguenos</span></h6>
+                    <ul>
+                        <li><a href="#">Instagram ↗</a></li>
+                        <li><a href="#">Facebook ↗</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-meta">
+                <span>© 2026 Punt i Còpia</span>
+                <ul>
+                    <li><a href="#"><span class="lang-ca">Avís legal</span><span class="lang-es">Aviso legal</span></a></li>
+                    <li><a href="#"><span class="lang-ca">Privacitat</span><span class="lang-es">Privacidad</span></a></li>
+                    <li><a href="#">Cookies</a></li>
+                </ul>
+                <span><span class="lang-ca">Disseny: She's Digital</span><span class="lang-es">Diseño: She's Digital</span></span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp floating button -->
+    <a class="wa-fab lang-ca" href="https://wa.me/34900000000?text=Hola%2C%20m%27agradaria%20demanar%20pressupost%20a%20Punt%20i%20C%C3%B2pia." target="_blank" rel="noopener" aria-label="Escriu-nos per WhatsApp">
+        <span class="wa-fab__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.2-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.3 5.2 4.5.7.3 1.3.5 1.7.7.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.1 1.6 5.9L0 24l6.3-1.7c1.7.9 3.7 1.5 5.7 1.5 6.6 0 12-5.4 12-12S18.6 0 12 0zm0 22c-1.9 0-3.7-.5-5.2-1.4l-.4-.2-3.8 1 1-3.7-.2-.4C2.5 15.7 2 13.9 2 12 2 6.5 6.5 2 12 2s10 4.5 10 10-4.5 10-10 10z"/></svg>
+        </span>
+        <span class="wa-fab__label">WhatsApp</span>
+    </a>
+    <a class="wa-fab lang-es" href="https://wa.me/34900000000?text=Hola%2C%20me%20gustar%C3%ADa%20pedir%20presupuesto%20a%20Punt%20i%20C%C3%B2pia." target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
+        <span class="wa-fab__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.2-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.3 5.2 4.5.7.3 1.3.5 1.7.7.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.1 1.6 5.9L0 24l6.3-1.7c1.7.9 3.7 1.5 5.7 1.5 6.6 0 12-5.4 12-12S18.6 0 12 0zm0 22c-1.9 0-3.7-.5-5.2-1.4l-.4-.2-3.8 1 1-3.7-.2-.4C2.5 15.7 2 13.9 2 12 2 6.5 6.5 2 12 2s10 4.5 10 10-4.5 10-10 10z"/></svg>
+        </span>
+        <span class="wa-fab__label">WhatsApp</span>
+    </a>
+
+    <script src="assets/js/main.js?v=2"></script>
+</body>
+</html>
